@@ -1,5 +1,5 @@
 # aber_webring
-A webring for the websites of students of aberystwyth
+A webring for the websites of aberystwyth students
 
 ## What is a webring?
 A [webring](https://en.wikipedia.org/wiki/Webring) is a collection of websites in a circular structure, each one has left and right buttons leading to the next websites in the ring, its essentially just a fun easter-egg to hide on your site.
