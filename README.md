@@ -13,9 +13,9 @@ To join the webring make sure your site is following the below criteria then jus
 <div class="webring">
     <h2> Webring </h2>
     <div class="webringContent">
-        <a href="users.aber.ac.uk/evh14"><-</a>
+        <a href="tbd"><-</a>
         <img src="webringlogo.svg" style="margin: 0; width: 19px;">
-        <a href="users.aber.ac.uk/evh14">-></a>
+        <a href="tbd">-></a>
     </div>
 </div>
 
