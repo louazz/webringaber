@@ -43,6 +43,9 @@ To join the webring make sure your site is following the below criteria then jus
 You can find the svg icon there in this repo, its initially taken from [The XXIIVV Webring](https://github.com/XXIIVV/webring) using their MIT license. Go check out that project, every page on there is incredibly interesting!
 
 ## Criteria
-If you're wanting to add yourself to this, please make sure your page doesnt contain any hateful content or anything inappropriate. This is up to your discretion but just ask yourself whether other people would be okay linking their website (possibly a portfolio or recruiter facing site) to yours, if theres a chance they wouldnt then best avoid it.
+If you're wanting to add yourself to this, please make sure your page doesnt contain any hateful content or anything inappropriate. 
+
+This is up to your discretion but just ask yourself whether other people would be okay linking their website (possibly a portfolio or recruiter facing site) to yours, if theres a chance they wouldnt then best avoid it.
+
 Make sure your website represents you! This is meant for personal sites, not projects or adverts.
 
