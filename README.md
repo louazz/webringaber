@@ -40,5 +40,5 @@ To join the webring make sure your sites following the below rules then just cre
 }
 ```
 
-You can find the svg icon there in this repo, its initially taken from [this project](https://github.com/XXIIVV/webring) using their MIT license. Go check out that project, every page on there is incredibly interesting!
+You can find the svg icon there in this repo, its initially taken from [The XXIIVV Webring](https://github.com/XXIIVV/webring) using their MIT license. Go check out that project, every page on there is incredibly interesting!
 
