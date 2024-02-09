@@ -9,6 +9,11 @@ pub struct Params {
     dir: String,
 }
 
+#[get("/invalid_dir")]
+pub async fn invalid_dir_error(req: HttpRequest) -> impl Responder {
+    HttpResponse::Ok().body("<h1>An error occurred! :<</h1>")
+}
+
 #[get("/{user_id}")]
 pub async fn navigate(req: HttpRequest, path: web::Path<String>) -> impl Responder {
     let user_id = path.into_inner();
@@ -23,7 +28,4 @@ pub async fn navigate(req: HttpRequest, path: web::Path<String>) -> impl Respond
     // HttpResponse:Ok().body("an error occured :<, message the websites owner")
 }
 
-#[get("/invalid_dir")]
-pub async fn invalid_dir_error(req: HttpRequest) -> impl Responder {
-    HttpResponse::Ok().body("An error occurred! :<")
-}
+
