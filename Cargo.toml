@@ -7,5 +7,6 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4.5.1"
-serde = "1.0.196"
+indexmap = "2.2.2"
+serde = { version = "1.0.196", features = ["derive"] }
 serde_json = "1.0.113"
