@@ -1,1 +1,1 @@
-mod actix;
+pub mod endpoints;
