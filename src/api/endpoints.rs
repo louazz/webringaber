@@ -1,5 +1,6 @@
 use actix_web::{
-    get, middleware::Logger, web, App, Error, HttpRequest, HttpResponse, HttpServer, Responder,
+    cookie::time::Result, get, middleware::Logger, web, App, Error, HttpRequest, HttpResponse,
+    HttpServer, Responder,
 };
 use serde::Deserialize;
 
@@ -11,6 +12,18 @@ pub struct Params {
 #[get("/{user_id}")]
 pub async fn navigate(req: HttpRequest, path: web::Path<String>) -> impl Responder {
     let user_id = path.into_inner();
-    let params = web::Query::<Params>::from_query(req.query_string()).unwrap();
-    web::Redirect::to("https://longdogechallenge.com")
+
+    if let Ok(params) = web::Query::<Params>::from_query(req.query_string()) {
+        web::Redirect::to("https://longdogechallenge.com")
+    } else {
+        web::Redirect::to("/invalid_dir") // TODO THIS DONT WORK
+    }
+
+    // if error
+    // HttpResponse:Ok().body("an error occured :<, message the websites owner")
+}
+
+#[get("/invalid_dir")]
+pub async fn invalid_dir_error(req: HttpRequest) -> impl Responder {
+    HttpResponse::Ok().body("An error occurred! :<")
 }
